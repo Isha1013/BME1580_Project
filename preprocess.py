@@ -49,12 +49,40 @@ def extract_features(y, sr):
     rmse_mean = np.mean(rmse)
     rmse_std = np.std(rmse)
 
+    # Spectral Contrast
+    contrast = librosa.feature.spectral_contrast(y=y, sr=sr, n_bands=4)
+    contrast_mean = np.mean(contrast, axis=1)
+    contrast_std = np.std(contrast, axis=1)
+
+    # Chroma
+    chroma = librosa.feature.chroma_stft(y=y, sr=sr)
+    chroma_mean = np.mean(chroma, axis=1)
+    chroma_std = np.std(chroma, axis=1)
+
+    # Spectral Flatness
+    flatness = librosa.feature.spectral_flatness(y=y)
+    flatness_mean = np.mean(flatness)
+    flatness_std = np.std(flatness)
+
+    # Onset strength
+    onset_env = librosa.onset.onset_strength(y=y, sr=sr)
+    onset_mean = np.mean(onset_env)
+    onset_std = np.std(onset_env)
+
     # Combine all features into dict
     features = {}
 
     for i in range(N_MFCC):
         features[f"mfcc{i+1}_mean"] = mfccs_mean[i]
         features[f"mfcc{i+1}_std"] = mfccs_std[i]
+
+    for i in range(len(contrast_mean)):
+        features[f"contrast{i+1}_mean"] = contrast_mean[i]
+        features[f"contrast{i+1}_std"] = contrast_std[i]
+
+    for i in range(len(chroma_mean)):
+        features[f"chroma{i+1}_mean"] = chroma_mean[i]
+        features[f"chroma{i+1}_std"] = chroma_std[i]
 
     features.update({
         "zcr_mean": zcr_mean,
@@ -66,7 +94,11 @@ def extract_features(y, sr):
         "bandwidth_mean": bandwidth_mean,
         "bandwidth_std": bandwidth_std,
         "rmse_mean": rmse_mean,
-        "rmse_std": rmse_std
+        "rmse_std": rmse_std,
+        "flatness_mean": flatness_mean,
+        "flatness_std": flatness_std,
+        "onset_mean": onset_mean,
+        "onset_std": onset_std  
     })
 
     return features
@@ -86,7 +118,8 @@ def main():
     df = pd.read_csv(METADATA_FILE)
     feature_rows = []
 
-    for _, row in tqdm(df.iterrows(), total=len(df)):
+    for _, row in df.iterrows():
+    # for _, row in tqdm(df.iterrows(), total=len(df)):
         file_name = row["filename"]
         file_path = AUDIO_DIR / file_name
 
