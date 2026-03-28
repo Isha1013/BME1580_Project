@@ -10,51 +10,54 @@ import seaborn as sns
 FEATURE_FILE = "audio_features.csv"
 df = pd.read_csv(FEATURE_FILE)
 
-# exclude non-numeric columns for ML
-exclude_cols = ["filename", "sound_class", "disease_class", "patient_id"]
-X = df.drop(columns=exclude_cols).values
-y = df["disease_class"].values
-patient_ids = df["patient_id"].values
+def run_model(sub_df, label):
+    # exclude non-numeric columns for ML
+    exclude_cols = ["filename", "sound_class", "disease_class", "patient_id"]
+    X = sub_df.drop(columns=exclude_cols).values
+    y = sub_df["sound_class"].values
+    patient_ids = sub_df["patient_id"].values
 
-# Patient-level split
-# ensure same patient doesn't appear in train and test
-unique_patients = df["patient_id"].unique()
-train_patients, test_patients = train_test_split(unique_patients, test_size=0.2, random_state=42)
+    # Patient-level split
+    # ensure same patient doesn't appear in train and test
+    unique_patients = sub_df["patient_id"].unique()
+    train_patients, test_patients = train_test_split(unique_patients, test_size=0.2, random_state=42)
 
-train_idx = df["patient_id"].isin(train_patients)
-test_idx = df["patient_id"].isin(test_patients)
+    train_idx = sub_df["patient_id"].isin(train_patients)
+    test_idx = sub_df["patient_id"].isin(test_patients)
 
-X_train, X_test = X[train_idx], X[test_idx]
-y_train, y_test = y[train_idx], y[test_idx]
+    X_train, X_test = X[train_idx], X[test_idx]
+    y_train, y_test = y[train_idx], y[test_idx]
 
-# Feature scaling
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
+    # Feature scaling
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
 
-# Train Random Forest
-rf = RandomForestClassifier(
-    n_estimators=200,
-    max_depth=None,
-    class_weight="balanced",
-    random_state=42
-)
+    # Train Random Forest
+    rf = RandomForestClassifier(n_estimators=200, max_depth=None, class_weight="balanced", random_state=42)
 
-rf.fit(X_train, y_train)
+    rf.fit(X_train, y_train)
 
-# Evaluate
-y_pred = rf.predict(X_test)
+    # Evaluate
+    y_pred = rf.predict(X_test)
 
-print("Classification Report:")
-print(classification_report(y_test, y_pred))
+    print("Classification Report:")
+    print(classification_report(y_test, y_pred))
 
-# Confusion matrix
-cm = confusion_matrix(y_test, y_pred, labels=rf.classes_)
+    # Confusion matrix
+    cm = confusion_matrix(y_test, y_pred, labels=rf.classes_)
 
-plt.figure(figsize=(8,6))
-sns.heatmap(cm, annot=True, fmt="d", xticklabels=rf.classes_, yticklabels=rf.classes_, cmap="Blues")
+    plt.figure(figsize=(8,6))
+    sns.heatmap(cm, annot=True, fmt="d", xticklabels=rf.classes_, yticklabels=rf.classes_, cmap="Blues")
 
-plt.xlabel("Predicted")
-plt.ylabel("True")
-plt.title("Random Forest Confusion Matrix")
-plt.show()
+    plt.xlabel("Predicted")
+    plt.ylabel("True")
+    plt.title(f"Random Forest Confusion Matrix ({label}) - Sound Classification")
+    plt.show()
+
+for prefix in ["B", "D", "E"]:
+    subset = df[df["filename"].str.startswith(prefix)]
+
+    run_model(subset, prefix)
+
+run_model(df, "All Filtering Modes")
