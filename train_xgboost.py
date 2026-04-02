@@ -7,6 +7,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import xgboost as xgb
 from sklearn.utils.class_weight import compute_sample_weight
+from sklearn.model_selection import StratifiedKFold, cross_val_predict
+
 
 FEATURE_FILE = "audio_features.csv"
 df = pd.read_csv(FEATURE_FILE)
@@ -14,29 +16,14 @@ df = pd.read_csv(FEATURE_FILE)
 def run_model(sub_df, label):
     exclude_cols = ["filename", "sound_class", "disease_class", "patient_id"]
     X = sub_df.drop(columns=exclude_cols).values
-    y = sub_df["sound_class"].values   
-    patient_ids = sub_df["patient_id"].values
+    y = sub_df["disease_class"].values   
 
     # Encode labels to integers
     le = LabelEncoder()
     y_enc = le.fit_transform(y)
 
-    # Patient-level split
-    unique_patients = np.unique(patient_ids)
-    train_patients, test_patients = train_test_split(unique_patients, test_size=0.2, random_state=42)
-
-    train_idx = np.isin(patient_ids, train_patients)
-    test_idx = np.isin(patient_ids, test_patients)
-
-    X_train, X_test = X[train_idx], X[test_idx]
-    y_train, y_test = y_enc[train_idx], y_enc[test_idx]
-
     scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_test = scaler.transform(X_test)
-
-    sample_weights = compute_sample_weight(class_weight='balanced', y=y_train)
-
+    X_scaled = scaler.fit_transform(X)
 
     # Train XGBoost classifier
     xgb_clf = xgb.XGBClassifier(
@@ -50,17 +37,16 @@ def run_model(sub_df, label):
         random_state=42
     )
 
-    xgb_clf.fit(X_train, y_train, sample_weight=sample_weights)
+    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
-
-    # Evaluate model
-    y_pred = xgb_clf.predict(X_test)
+    # Evaluate
+    y_pred = cross_val_predict(xgb_clf, X_scaled, y_enc, cv=skf)
 
     print("Classification Report:")
-    print(classification_report(y_test, y_pred, target_names=le.classes_))
+    print(classification_report(y_enc, y_pred, target_names=le.classes_))
 
     # Confusion matrix
-    cm = confusion_matrix(y_test, y_pred)
+    cm = confusion_matrix(y_enc, y_pred)
     plt.figure(figsize=(8,6))
     sns.heatmap(cm, annot=True, fmt="d", xticklabels=le.classes_, yticklabels=le.classes_, cmap="Blues")
     plt.xlabel("Predicted")
@@ -68,11 +54,6 @@ def run_model(sub_df, label):
     plt.title(f"XGBoost Confusion Matrix ({label}) - Sound Classification")
     plt.show()
 
-
-    # Feature importance
-    xgb.plot_importance(xgb_clf, max_num_features=10)
-    plt.title("Top 10 Feature Importances")
-    plt.show()
 
 for prefix in ["B", "D", "E"]:
     subset = df[df["filename"].str.startswith(prefix)]
