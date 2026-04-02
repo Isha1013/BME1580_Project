@@ -6,6 +6,8 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.model_selection import StratifiedKFold, cross_val_predict
+
 
 
 FEATURE_FILE = "audio_features.csv"
@@ -15,41 +17,26 @@ def run_model(sub_df, label):
     # exclude non-numeric columns for ML
     exclude_cols = ["filename", "sound_class", "disease_class", "patient_id"]
     X = sub_df.drop(columns=exclude_cols).values
-    y = sub_df["sound_class"].values
-    patient_ids = sub_df["patient_id"].values
-
-    # Patient-level split
-    # ensure same patient doesn't appear in train and test
-    unique_patients = sub_df["patient_id"].unique()
-    train_patients, test_patients = train_test_split(
-        unique_patients, test_size=0.2, random_state=42
-    )
-
-    train_idx = sub_df["patient_id"].isin(train_patients)
-    test_idx = sub_df["patient_id"].isin(test_patients)
-
-    X_train, X_test = X[train_idx], X[test_idx]
-    y_train, y_test = y[train_idx], y[test_idx]
+    y = sub_df["disease_class"].values
 
     # Feature scaling
     scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_test = scaler.transform(X_test)
+    X_scaled = scaler.fit_transform(X)
 
     # Train SVM
     svm_clf = SVC(kernel="rbf", C=10, gamma="scale", class_weight="balanced", random_state=42)
-    svm_clf.fit(X_train, y_train)
+    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
     # Evaluate
-    y_pred = svm_clf.predict(X_test)
+    y_pred = cross_val_predict(svm_clf, X_scaled, y, cv=skf)
 
     print("Classification Report:")
-    print(classification_report(y_test, y_pred))
+    print(classification_report(y, y_pred))
 
     # Confusion matrix
-    cm = confusion_matrix(y_test, y_pred, labels=svm_clf.classes_)
+    cm = confusion_matrix(y, y_pred, labels=np.unique(y))
     plt.figure(figsize=(8,6))
-    sns.heatmap(cm, annot=True, fmt="d", xticklabels=svm_clf.classes_, yticklabels=svm_clf.classes_, cmap="Blues")
+    sns.heatmap(cm, annot=True, fmt="d", xticklabels=np.unique(y), yticklabels=np.unique(y), cmap="Blues")
     plt.xlabel("Predicted")
     plt.ylabel("True")
     plt.title(f"SVM Confusion Matrix ({label}) - Sound Classification")
