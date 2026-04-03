@@ -5,14 +5,12 @@ import os
 from pathlib import Path
 from tqdm import tqdm
 
-
 AUDIO_DIR = Path("archive/Audio Files") # folder with .wav files
 METADATA_FILE = "audio_metadata.csv"   # metadata CSV
 OUTPUT_FILE = "audio_features.csv"     # CSV with extracted features
 
 TARGET_SR = 4000   # resample rate
 N_MFCC = 13        # number of MFCC coefficients
-
 
 def extract_features(y, sr):
     """
@@ -103,7 +101,6 @@ def extract_features(y, sr):
 
     return features
 
-
 # Audio preprocessing
 def preprocess_audio(file_path, target_sr=TARGET_SR):
     y, sr = librosa.load(file_path, sr=None)
@@ -137,6 +134,9 @@ def main():
         features["sound_class"] = row["sound_class"]
         features["disease_class"] = row["disease_class"]
         features["patient_id"] = row.get("patient_id", None)
+
+        features["gender"] = row.get("gender", None)
+        features["age"] = row.get("age", None)
 
         feature_rows.append(features)
 
