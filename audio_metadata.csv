@@ -4,35 +4,35 @@ D,P63,COPD,E W,P R L,58,F,"DP63_COPD,E W,P R L ,58,F.wav",Wheezes,Lung disease
 E,P30,N,N,P R M,18,F,"EP30_N,N,P R M,18,F.wav",Normal,Normal
 D,P85,N,N,A R U,33,M,"DP85_N,N,A R U,33,M.wav",Normal,Normal
 D,P71,N,N,P R U,36,M,"DP71_N,N,P R U,36,M.wav",Normal,Normal
-B,P52,Lung Fibrosis,Crep,P L L,76,F,"BP52_Lung Fibrosis,Crep,P L L,76,F.wav",Crepitations,Lung disease
+B,P52,Lung Fibrosis,Crep,P L L,76,F,"BP52_Lung Fibrosis,Crep,P L L,76,F.wav",Crackles,Lung disease
 B,P75,N,N,P L U,73,F,"BP75_N,N,P L U,73,F.wav",Normal,Normal
-B,P39,heart failure,Crep,P R L,67,M,"BP39_heart failure,Crep,P R L ,67,M.wav",Crepitations,Heart disease
+B,P39,heart failure,Crep,P R L,67,M,"BP39_heart failure,Crep,P R L ,67,M.wav",Crackles,Heart disease
 B,P46,asthma,E W,P L U,41,F,"BP46_asthma,E W,P L U,41,F.wav",Wheezes,Lung disease
 D,P13,Heart Failure,C,P L L,55,M,"DP13_Heart Failure,C,P L L,55,M.wav",Crackles,Heart disease
-B,P54,heart failure,Crep,P R L,73,F,"BP54_heart failure,Crep,P R L ,73,F.wav",Crepitations,Heart disease
-D,P41,pneumonia,Crep,P R M,51,M,"DP41_pneumonia,Crep,P R M,51,M.wav",Crepitations,Lung disease
+B,P54,heart failure,Crep,P R L,73,F,"BP54_heart failure,Crep,P R L ,73,F.wav",Crackles,Heart disease
+D,P41,pneumonia,Crep,P R M,51,M,"DP41_pneumonia,Crep,P R M,51,M.wav",Crackles,Lung disease
 E,P15,Asthma,E W,P R U,49,F,"EP15_Asthma,E W,P R U,49,F.wav",Wheezes,Lung disease
 D,P99,N,N,P R M,50,M,"DP99_N,N,P R M,50,M.wav",Normal,Normal
 D,P81,N,N,P L U,33,M,"DP81_N,N,P L U,33,M.wav",Normal,Normal
-E,P52,Lung Fibrosis,Crep,P L L,76,F,"EP52_Lung Fibrosis,Crep,P L L,76,F.wav",Crepitations,Lung disease
-D,P21,BRON,Crep,P R L,20,M,"DP21_BRON,Crep,P R L ,20,M.wav",Crepitations,Lung disease
+E,P52,Lung Fibrosis,Crep,P L L,76,F,"EP52_Lung Fibrosis,Crep,P L L,76,F.wav",Crackles,Lung disease
+D,P21,BRON,Crep,P R L,20,M,"DP21_BRON,Crep,P R L ,20,M.wav",Crackles,Lung disease
 B,P20,Asthma and lung fibrosis,C,A R M,90,M,"BP20_Asthma and lung fibrosis,C,A R M,90,M.wav",Crackles,Lung disease
-B,P90,heart failure,Crep,P L M,74,F,"BP90_heart failure,Crep,P L M,74,F.wav",Crepitations,Heart disease
+B,P90,heart failure,Crep,P L M,74,F,"BP90_heart failure,Crep,P L M,74,F.wav",Crackles,Heart disease
 E,P79,asthma,E W,A R U,46,M,"EP79_asthma,E W,A R U,46,M.wav",Wheezes,Lung disease
-E,P39,heart failure,Crep,P R L,67,M,"EP39_heart failure,Crep,P R L ,67,M.wav",Crepitations,Heart disease
-E,P54,heart failure,Crep,P R L,73,F,"EP54_heart failure,Crep,P R L ,73,F.wav",Crepitations,Heart disease
+E,P39,heart failure,Crep,P R L,67,M,"EP39_heart failure,Crep,P R L ,67,M.wav",Crackles,Heart disease
+E,P54,heart failure,Crep,P R L,73,F,"EP54_heart failure,Crep,P R L ,73,F.wav",Crackles,Heart disease
 B,P47,asthma,E W,P L M,60,M,"BP47_asthma,E W,P L M,60,M.wav",Wheezes,Lung disease
 D,P87,N,N,P R M,72,M,"DP87_N,N,P R M,72,M.wav",Normal,Normal
 D,P83,N,N,A R U,18,F,"DP83_N,N,A R U,18,F.wav",Normal,Normal
 D,P27,asthma,E W,P R M,53,F,"DP27_asthma,E W,P R M,53,F.wav",Wheezes,Lung disease
-D,P39,heart failure,Crep,P R L,67,M,"DP39_heart failure,Crep,P R L ,67,M.wav",Crepitations,Heart disease
+D,P39,heart failure,Crep,P R L,67,M,"DP39_heart failure,Crep,P R L ,67,M.wav",Crackles,Heart disease
 B,P31,N,N,P L M,27,F,"BP31_N,N,P L M,27,F.wav",Normal,Normal
-E,P90,heart failure,Crep,P L M,74,F,"EP90_heart failure,Crep,P L M,74,F.wav",Crepitations,Heart disease
-D,P54,heart failure,Crep,P R L,73,F,"DP54_heart failure,Crep,P R L ,73,F.wav",Crepitations,Heart disease
+E,P90,heart failure,Crep,P L M,74,F,"EP90_heart failure,Crep,P L M,74,F.wav",Crackles,Heart disease
+D,P54,heart failure,Crep,P R L,73,F,"DP54_heart failure,Crep,P R L ,73,F.wav",Crackles,Heart disease
 B,P18,pneumonia,C,P R U,57,M,"BP18_pneumonia,C,P R U,57,M.wav",Crackles,Lung disease
 B,P74,N,N,P R M,74,M,"BP74_N,N,P R M,74,M.wav",Normal,Normal
 B,P106,Asthma,E W,P L U,45,F,"BP106_Asthma,E W,P L U,45,F.wav",Wheezes,Lung disease
-E,P28,BRON,Crep,P L U,68,F,"EP28_BRON,Crep,P L U,68,F.wav",Crepitations,Lung disease
+E,P28,BRON,Crep,P L U,68,F,"EP28_BRON,Crep,P L U,68,F.wav",Crackles,Lung disease
 B,P51,N,N,P L M,30,M,"BP51_N,N,P L M,30,M.wav",Normal,Normal
 D,P58,asthma,E W,P L M,40,M,"DP58_asthma,E W,P L M,40,M.wav",Wheezes,Lung disease
 B,P72,N,N,P R U,24,F,"BP72_N,N,P R U,24,F.wav",Normal,Normal
@@ -40,20 +40,20 @@ D,P97,Asthma,E W,P R U,24,M,"DP97_Asthma,E W,P R U,24,M.wav",Wheezes,Lung diseas
 E,P53,asthma,E W,P R M,72,F,"EP53_asthma,E W,P R M,72,F.wav",Wheezes,Lung disease
 B,P77,Asthma,E W,A R L,40,M,"BP77_Asthma,E W,A R L,40,M.wav",Wheezes,Lung disease
 B,P38,Asthma,E W,P R M,38,M,"BP38_Asthma,E W,P R M,38,M.wav",Wheezes,Lung disease
-B,P22,BRON,Crep,P R U,24,M,"BP22_BRON,Crep,P R U,24,M.wav",Crepitations,Lung disease
-D,P45,heart failure,Crep,P R L,30,M,"DP45_heart failure,Crep,P R L ,30,M.wav",Crepitations,Heart disease
+B,P22,BRON,Crep,P R U,24,M,"BP22_BRON,Crep,P R U,24,M.wav",Crackles,Lung disease
+D,P45,heart failure,Crep,P R L,30,M,"DP45_heart failure,Crep,P R L ,30,M.wav",Crackles,Heart disease
 D,P104,Asthma,E W,P L U,45,F,"DP104_Asthma,E W,P L U,45,F.wav",Wheezes,Lung disease
 B,P9,Asthma,E W,P R L,59,M,"BP9_Asthma,E W,P R L ,59,M.wav",Wheezes,Lung disease
 D,P1,Asthma,I E W,P L L,70,M,"DP1_Asthma,I E W,P L L,70,M.wav",Wheezes,Lung disease
 B,P100,N,N,P R M,70,F,"BP100_N,N,P R M,70,F.wav",Normal,Normal
-E,P45,heart failure,Crep,P R L,30,M,"EP45_heart failure,Crep,P R L ,30,M.wav",Crepitations,Heart disease
-D,P52,Lung Fibrosis,Crep,P L L,76,F,"DP52_Lung Fibrosis,Crep,P L L,76,F.wav",Crepitations,Lung disease
+E,P45,heart failure,Crep,P R L,30,M,"EP45_heart failure,Crep,P R L ,30,M.wav",Crackles,Heart disease
+D,P52,Lung Fibrosis,Crep,P L L,76,F,"DP52_Lung Fibrosis,Crep,P L L,76,F.wav",Crackles,Lung disease
 B,P70,N,N,P L U,52,F,"BP70_N,N,P L U,52,F.wav",Normal,Normal
-E,P36,pneumonia,Crep,P R M,36,F,"EP36_pneumonia,Crep,P R M,36,F.wav",Crepitations,Lung disease
+E,P36,pneumonia,Crep,P R M,36,F,"EP36_pneumonia,Crep,P R M,36,F.wav",Crackles,Lung disease
 D,P91,asthma,E W,P R U,43,F,"DP91_asthma,E W,P R U,43,F.wav",Wheezes,Lung disease
 E,P73,N,N,P L L,32,M,"EP73_N,N,P L L,32,M.wav",Normal,Normal
 D,P57,COPD,E W,P R L,42,M,"DP57_COPD,E W,P R L ,42,M.wav",Wheezes,Lung disease
-D,P37,pneumonia,Crep,A R L,70,F,"DP37_pneumonia,Crep,A R L,70,F.wav",Crepitations,Lung disease
+D,P37,pneumonia,Crep,A R L,70,F,"DP37_pneumonia,Crep,A R L,70,F.wav",Crackles,Lung disease
 D,P112,N,N,P L M,30,M,"DP112_N,N,P L M,30,M.wav",Normal,Normal
 E,P82,N,N,P L U,38,M,"EP82_N,N,P L U,38,M.wav",Normal,Normal
 B,P3,Asthma,I E W,P L L R,50,F,"BP3_Asthma,I E W,P L L R,50,F.wav",Wheezes,Lung disease
@@ -70,27 +70,27 @@ B,P43,asthma,E W,P L M,15,M,"BP43_asthma,E W,P L M,15,M.wav",Wheezes,Lung diseas
 B,P55,asthma,E W,P R U,72,F,"BP55_asthma,E W,P R U,72,F.wav",Wheezes,Lung disease
 B,P64,asthma,E W,P L U,60,M,"BP64_asthma,E W,P L U,60,M.wav",Wheezes,Lung disease
 D,P89,N,N,P L M,70,M,"DP89_N,N,P L M,70,M.wav",Normal,Normal
-E,P26,Lung Fibrosis,Crep,P,90,F,"EP26_Lung Fibrosis,Crep,P,90,F.wav",Crepitations,Lung disease
+E,P26,Lung Fibrosis,Crep,P,90,F,"EP26_Lung Fibrosis,Crep,P,90,F.wav",Crackles,Lung disease
 E,P106,Asthma,E W,P L U,45,F,"EP106_Asthma,E W,P L U,45,F.wav",Wheezes,Lung disease
 B,P88,N,N,A R U,29,M,"BP88_N,N,A R U,29,M.wav",Normal,Normal
 B,P76,N,N,A L U,31,M,"BP76_N,N,A L U,31,M.wav",Normal,Normal
-B,P45,heart failure,Crep,P R L,30,M,"BP45_heart failure,Crep,P R L ,30,M.wav",Crepitations,Heart disease
-D,P90,heart failure,Crep,P L M,74,F,"DP90_heart failure,Crep,P L M,74,F.wav",Crepitations,Heart disease
+B,P45,heart failure,Crep,P R L,30,M,"BP45_heart failure,Crep,P R L ,30,M.wav",Crackles,Heart disease
+D,P90,heart failure,Crep,P L M,74,F,"DP90_heart failure,Crep,P L M,74,F.wav",Crackles,Heart disease
 D,P95,N,N,P L M,18,M,"DP95_N,N,P L M,18,M.wav",Normal,Normal
 E,P111,COPD,E W,P R L,51,M,"EP111_COPD,E W,P R L ,51,M.wav",Wheezes,Lung disease
 B,P91,asthma,E W,P R U,43,F,"BP91_asthma,E W,P R U,43,F.wav",Wheezes,Lung disease
 B,P112,N,N,P L M,30,M,"BP112_N,N,P L M,30,M.wav",Normal,Normal
-D,P34,heart failure,Crep,P R M,78,F,"DP34_heart failure,Crep,P R M,78,F.wav",Crepitations,Heart disease
+D,P34,heart failure,Crep,P R M,78,F,"DP34_heart failure,Crep,P R M,78,F.wav",Crackles,Heart disease
 B,P86,N,N,P R U,68,F,"BP86_N,N,P R U,68,F.wav",Normal,Normal
 D,P76,N,N,A L U,31,M,"DP76_N,N,A L U,31,M.wav",Normal,Normal
-B,P26,Lung Fibrosis,Crep,P,90,F,"BP26_Lung Fibrosis,Crep,P,90,F.wav",Crepitations,Lung disease
+B,P26,Lung Fibrosis,Crep,P,90,F,"BP26_Lung Fibrosis,Crep,P,90,F.wav",Crackles,Lung disease
 B,P14,Heart Failure,C,A R M,54,M,"BP14_Heart Failure,C,A R M,54,M.wav",Crackles,Heart disease
 D,P88,N,N,A R U,29,M,"DP88_N,N,A R U,29,M.wav",Normal,Normal
 D,P3,Asthma,I E W,P L L R,50,F,"DP3_Asthma,I E W,P L L R,50,F.wav",Wheezes,Lung disease
 B,P89,N,N,P L M,70,M,"BP89_N,N,P L M,70,M.wav",Normal,Normal
 D,P100,N,N,P R M,70,F,"DP100_N,N,P R M,70,F.wav",Normal,Normal
-D,P29,heart failure,Crep,P L L,57,M,"DP29_heart failure,Crep,P L L,57,M.wav",Crepitations,Heart disease
-D,P28,BRON,Crep,P L U,68,F,"DP28_BRON,Crep,P L U,68,F.wav",Crepitations,Lung disease
+D,P29,heart failure,Crep,P L L,57,M,"DP29_heart failure,Crep,P L L,57,M.wav",Crackles,Heart disease
+D,P28,BRON,Crep,P L U,68,F,"DP28_BRON,Crep,P L U,68,F.wav",Crackles,Lung disease
 D,P77,Asthma,E W,A R L,40,M,"DP77_Asthma,E W,A R L,40,M.wav",Wheezes,Lung disease
 D,P38,Asthma,E W,P R M,38,M,"DP38_Asthma,E W,P R M,38,M.wav",Wheezes,Lung disease
 E,P44,asthma,E W,P R U,40,M,"EP44_asthma,E W,P R U,40,M.wav",Wheezes,Lung disease
@@ -99,14 +99,14 @@ D,P9,Asthma,E W,P R L,59,M,"DP9_Asthma,E W,P R L ,59,M.wav",Wheezes,Lung disease
 E,P13,Heart Failure,C,P L L,55,M,"EP13_Heart Failure,C,P L L,55,M.wav",Crackles,Heart disease
 B,P11,Heart Failure,C,P L L,53,M,"BP11_Heart Failure,C,P L L,53,M.wav",Crackles,Heart disease
 D,P43,asthma,E W,P L M,15,M,"DP43_asthma,E W,P L M,15,M.wav",Wheezes,Lung disease
-B,P36,pneumonia,Crep,P R M,36,F,"BP36_pneumonia,Crep,P R M,36,F.wav",Crepitations,Lung disease
+B,P36,pneumonia,Crep,P R M,36,F,"BP36_pneumonia,Crep,P R M,36,F.wav",Crackles,Lung disease
 D,P55,asthma,E W,P R U,72,F,"DP55_asthma,E W,P R U,72,F.wav",Wheezes,Lung disease
 E,P56,asthma,E W,P R M,56,F,"EP56_asthma,E W,P R M,56,F.wav",Wheezes,Lung disease
 D,P64,asthma,E W,P L U,60,M,"DP64_asthma,E W,P L U,60,M.wav",Wheezes,Lung disease
 E,P112,N,N,P L M,30,M,"EP112_N,N,P L M,30,M.wav",Normal,Normal
 E,P63,COPD,E W,P R L,58,F,"EP63_COPD,E W,P R L ,58,F.wav",Wheezes,Lung disease
 E,P48,N,N,P L U,31,M,"EP48_N,N,P L U,31,M.wav",Normal,Normal
-D,P60,heart failure,Crep,P L L,83,F,"DP60_heart failure,Crep,P L L,83,F.wav",Crepitations,Heart disease
+D,P60,heart failure,Crep,P L L,83,F,"DP60_heart failure,Crep,P L L,83,F.wav",Crackles,Heart disease
 E,P32,N,N,A R L,30,M,"EP32_N,N,A R L,30,M.wav",Normal,Normal
 B,P104,Asthma,E W,P L U,45,F,"BP104_Asthma,E W,P L U,45,F.wav",Wheezes,Lung disease
 B,P1,Asthma,I E W,P L L,70,M,"BP1_Asthma,I E W,P L L,70,M.wav",Wheezes,Lung disease
@@ -118,36 +118,36 @@ E,P80,asthma,E W,A L U,38,M,"EP80_asthma,E W,A L U,38,M.wav",Wheezes,Lung diseas
 D,P51,N,N,P L M,30,M,"DP51_N,N,P L M,30,M.wav",Normal,Normal
 D,P106,Asthma,E W,P L U,45,F,"DP106_Asthma,E W,P L U,45,F.wav",Wheezes,Lung disease
 B,P17,COPD,E W,A R M,57,M,"BP17_COPD,E W,A R M,57,M.wav",Wheezes,Lung disease
-B,P21,BRON,Crep,P R L,20,M,"BP21_BRON,Crep,P R L ,20,M.wav",Crepitations,Lung disease
+B,P21,BRON,Crep,P R L,20,M,"BP21_BRON,Crep,P R L ,20,M.wav",Crackles,Lung disease
 D,P74,N,N,P R M,74,M,"DP74_N,N,P R M,74,M.wav",Normal,Normal
-E,P29,heart failure,Crep,P L L,57,M,"EP29_heart failure,Crep,P L L,57,M.wav",Crepitations,Heart disease
+E,P29,heart failure,Crep,P L L,57,M,"EP29_heart failure,Crep,P L L,57,M.wav",Crackles,Heart disease
 D,P72,N,N,P R U,24,F,"DP72_N,N,P R U,24,F.wav",Normal,Normal
 D,P46,asthma,E W,P L U,41,F,"DP46_asthma,E W,P L U,41,F.wav",Wheezes,Lung disease
 B,P110,COPD,E W,P L L,62,M,"BP110_COPD,E W,P L L,62,M.wav",Wheezes,Lung disease
-B,P29,heart failure,Crep,P L L,57,M,"BP29_heart failure,Crep,P L L,57,M.wav",Crepitations,Heart disease
-E,P34,heart failure,Crep,P R M,78,F,"EP34_heart failure,Crep,P R M,78,F.wav",Crepitations,Heart disease
-B,P67,heart failure,Crep,P R L,24,F,"BP67_heart failure,Crep,P R L ,24,F.wav",Crepitations,Heart disease
+B,P29,heart failure,Crep,P L L,57,M,"BP29_heart failure,Crep,P L L,57,M.wav",Crackles,Heart disease
+E,P34,heart failure,Crep,P R M,78,F,"EP34_heart failure,Crep,P R M,78,F.wav",Crackles,Heart disease
+B,P67,heart failure,Crep,P R L,24,F,"BP67_heart failure,Crep,P R L ,24,F.wav",Crackles,Heart disease
 B,P61,COPD,E W,P R L,53,M,"BP61_COPD,E W,P R L ,53,M.wav",Wheezes,Lung disease
 E,P78,Asthma,E W,P R M,20,M,"EP78_Asthma,E W,P R M,20,M.wav",Wheezes,Lung disease
 E,P94,N,N,P L L,24,M,"EP94_N,N,P L L,24,M.wav",Normal,Normal
-B,P34,heart failure,Crep,P R M,78,F,"BP34_heart failure,Crep,P R M,78,F.wav",Crepitations,Heart disease
+B,P34,heart failure,Crep,P R M,78,F,"BP34_heart failure,Crep,P R M,78,F.wav",Crackles,Heart disease
 B,P83,N,N,A R U,18,F,"BP83_N,N,A R U,18,F.wav",Normal,Normal
 B,P87,N,N,P R M,72,M,"BP87_N,N,P R M,72,M.wav",Normal,Normal
 D,P31,N,N,P L M,27,F,"DP31_N,N,P L M,27,F.wav",Normal,Normal
 D,P33,Asthma,E W,P R M,43,F,"DP33_Asthma,E W,P R M,43,F.wav",Wheezes,Lung disease
 E,P12,Asthma,E W,P L L,50,F,"EP12_Asthma,E W,P L L,50,F.wav",Wheezes,Lung disease
-E,P67,heart failure,Crep,P R L,24,F,"EP67_heart failure,Crep,P R L ,24,F.wav",Crepitations,Heart disease
+E,P67,heart failure,Crep,P R L,24,F,"EP67_heart failure,Crep,P R L ,24,F.wav",Crackles,Heart disease
 B,P97,Asthma,E W,P R U,24,M,"BP97_Asthma,E W,P R U,24,M.wav",Wheezes,Lung disease
 D,P75,N,N,P L U,73,F,"DP75_N,N,P L U,73,F.wav",Normal,Normal
 E,P49,N,N,P R M,21,M,"EP49_N,N,P R M,21,M.wav",Normal,Normal
 B,P58,asthma,E W,P L M,40,M,"BP58_asthma,E W,P L M,40,M.wav",Wheezes,Lung disease
-E,P60,heart failure,Crep,P L L,83,F,"EP60_heart failure,Crep,P L L,83,F.wav",Crepitations,Heart disease
-D,P67,heart failure,Crep,P R L,24,F,"DP67_heart failure,Crep,P R L ,24,F.wav",Crepitations,Heart disease
+E,P60,heart failure,Crep,P L L,83,F,"EP60_heart failure,Crep,P L L,83,F.wav",Crackles,Heart disease
+D,P67,heart failure,Crep,P R L,24,F,"DP67_heart failure,Crep,P R L ,24,F.wav",Crackles,Heart disease
 E,P108,COPD,E W,P R L,63,M,"EP108_COPD,E W,P R L ,63,M.wav",Wheezes,Lung disease
 E,P35,Asthma,E W,A R L,38,M,"EP35_Asthma,E W,A R L,38,M.wav",Wheezes,Lung disease
 B,P99,N,N,P R M,50,M,"BP99_N,N,P R M,50,M.wav",Normal,Normal
 E,P84,N,N,A R U,65,F,"EP84_N,N,A R U,65,F.wav",Normal,Normal
-B,P60,heart failure,Crep,P L L,83,F,"BP60_heart failure,Crep,P L L,83,F.wav",Crepitations,Heart disease
+B,P60,heart failure,Crep,P L L,83,F,"BP60_heart failure,Crep,P L L,83,F.wav",Crackles,Heart disease
 B,P81,N,N,P L U,33,M,"BP81_N,N,P L U,33,M.wav",Normal,Normal
 B,P27,asthma,E W,P R M,53,F,"BP27_asthma,E W,P R M,53,F.wav",Wheezes,Lung disease
 E,P1,Asthma,I E W,P L L,70,M,"EP1_Asthma,I E W,P L L,70,M.wav",Wheezes,Lung disease
@@ -158,7 +158,7 @@ E,P57,COPD,E W,P R L,42,M,"EP57_COPD,E W,P R L ,42,M.wav",Wheezes,Lung disease
 E,P104,Asthma,E W,P L U,45,F,"EP104_Asthma,E W,P L U,45,F.wav",Wheezes,Lung disease
 E,P87,N,N,P R M,72,M,"EP87_N,N,P R M,72,M.wav",Normal,Normal
 E,P83,N,N,A R U,18,F,"EP83_N,N,A R U,18,F.wav",Normal,Normal
-E,P59,heart failure,Crep,P R L,83,F,"EP59_heart failure,Crep,P R L ,83,F.wav",Crepitations,Heart disease
+E,P59,heart failure,Crep,P R L,83,F,"EP59_heart failure,Crep,P R L ,83,F.wav",Crackles,Heart disease
 D,P78,Asthma,E W,P R M,20,M,"DP78_Asthma,E W,P R M,20,M.wav",Wheezes,Lung disease
 E,P19,heart failure,C,P R U,70,F,"EP19_heart failure,C,P R U,70,F.wav",Crackles,Heart disease
 D,P2,Asthma,E W,P L L R,52,F,"DP2_Asthma,E W,P L L R,52,F.wav",Wheezes,Lung disease
@@ -169,7 +169,7 @@ D,P12,Asthma,E W,P L L,50,F,"DP12_Asthma,E W,P L L,50,F.wav",Wheezes,Lung diseas
 D,P62,COPD,E W,P L M,53,M,"DP62_COPD,E W,P L M,53,M.wav",Wheezes,Lung disease
 B,P94,N,N,P L L,24,M,"BP94_N,N,P L L,24,M.wav",Normal,Normal
 B,P109,N,N,P L M,26,M,"BP109_N,N,P L M,26,M.wav",Normal,Normal
-D,P59,heart failure,Crep,P R L,83,F,"DP59_heart failure,Crep,P R L ,83,F.wav",Crepitations,Heart disease
+D,P59,heart failure,Crep,P R L,83,F,"DP59_heart failure,Crep,P R L ,83,F.wav",Crackles,Heart disease
 E,P16,heart failure,C,P R U,56,M,"EP16_heart failure,C,P R U,56,M.wav",Crackles,Heart disease
 B,P4,Heart Failure + Lung Fibrosis,I C,P L R,72,F,"BP4_Heart Failure + Lung Fibrosis ,I C,P L R,72,F.wav",Crackles,Heart disease
 D,P4,Heart Failure + Lung Fibrosis,I C,P L R,72,F,"DP4_Heart Failure + Lung Fibrosis ,I C,P L R,72,F.wav",Crackles,Heart disease
@@ -180,31 +180,28 @@ B,P15,Asthma,E W,P R U,49,F,"BP15_Asthma,E W,P R U,49,F.wav",Wheezes,Lung diseas
 E,P50,N,N,P R L,27,M,"EP50_N,N,P R L ,27,M.wav",Normal,Normal
 D,P80,asthma,E W,A L U,38,M,"DP80_asthma,E W,A L U,38,M.wav",Wheezes,Lung disease
 D,P61,COPD,E W,P R L,53,M,"DP61_COPD,E W,P R L ,53,M.wav",Wheezes,Lung disease
-D,P6,Plueral Effusion,I C B,P L R,81,M,"DP6_Plueral Effusion,I C B,P L R,81,M.wav",Crackles,Lung disease
-B,P8,Plueral Effusion,I C B,P L L,70,M,"BP8_Plueral Effusion,I C B,P L L,70,M.wav",Crackles,Lung disease
-D,P26,Lung Fibrosis,Crep,P,90,F,"DP26_Lung Fibrosis,Crep,P,90,F.wav",Crepitations,Lung disease
+D,P26,Lung Fibrosis,Crep,P,90,F,"DP26_Lung Fibrosis,Crep,P,90,F.wav",Crackles,Lung disease
 B,P68,asthma,E W,P R L,21,F,"BP68_asthma,E W,P R L ,21,F.wav",Wheezes,Lung disease
 E,P85,N,N,A R U,33,M,"EP85_N,N,A R U,33,M.wav",Normal,Normal
 D,P30,N,N,P R M,18,F,"DP30_N,N,P R M,18,F.wav",Normal,Normal
 B,P79,asthma,E W,A R U,46,M,"BP79_asthma,E W,A R U,46,M.wav",Wheezes,Lung disease
-E,P6,Plueral Effusion,I C B,P L R,81,M,"EP6_Plueral Effusion,I C B,P L R,81,M.wav",Crackles,Lung disease
 E,P71,N,N,P R U,36,M,"EP71_N,N,P R U,36,M.wav",Normal,Normal
 E,P109,N,N,P L M,26,M,"EP109_N,N,P L M,26,M.wav",Normal,Normal
 E,P47,asthma,E W,P L M,60,M,"EP47_asthma,E W,P L M,60,M.wav",Wheezes,Lung disease
 E,P4,Heart Failure + Lung Fibrosis,I C,P L R,72,F,"EP4_Heart Failure + Lung Fibrosis ,I C,P L R,72,F.wav",Crackles,Heart disease
-E,P22,BRON,Crep,P R U,24,M,"EP22_BRON,Crep,P R U,24,M.wav",Crepitations,Lung disease
+E,P22,BRON,Crep,P R U,24,M,"EP22_BRON,Crep,P R U,24,M.wav",Crackles,Lung disease
 D,P108,COPD,E W,P R L,63,M,"DP108_COPD,E W,P R L ,63,M.wav",Wheezes,Lung disease
 B,P84,N,N,A R U,65,F,"BP84_N,N,A R U,65,F.wav",Normal,Normal
 E,P99,N,N,P R M,50,M,"EP99_N,N,P R M,50,M.wav",Normal,Normal
 D,P35,Asthma,E W,A R L,38,M,"DP35_Asthma,E W,A R L,38,M.wav",Wheezes,Lung disease
-B,P59,heart failure,Crep,P R L,83,F,"BP59_heart failure,Crep,P R L ,83,F.wav",Crepitations,Heart disease
+B,P59,heart failure,Crep,P R L,83,F,"BP59_heart failure,Crep,P R L ,83,F.wav",Crackles,Heart disease
 E,P3,Asthma,I E W,P L L R,50,F,"EP3_Asthma,I E W,P L L R,50,F.wav",Wheezes,Lung disease
 E,P81,N,N,P L U,33,M,"EP81_N,N,P L U,33,M.wav",Normal,Normal
-D,P36,pneumonia,Crep,P R M,36,F,"DP36_pneumonia,Crep,P R M,36,F.wav",Crepitations,Lung disease
+D,P36,pneumonia,Crep,P R M,36,F,"DP36_pneumonia,Crep,P R M,36,F.wav",Crackles,Lung disease
 B,P50,N,N,P R L,27,M,"BP50_N,N,P R L ,27,M.wav",Normal,Normal
 B,P49,N,N,P R M,21,M,"BP49_N,N,P R M,21,M.wav",Normal,Normal
-E,P37,pneumonia,Crep,A R L,70,F,"EP37_pneumonia,Crep,A R L,70,F.wav",Crepitations,Lung disease
-D,P40,heart failure,Crep,A R M,26,M,"DP40_heart failure,Crep,A R M,26,M.wav",Crepitations,Heart disease
+E,P37,pneumonia,Crep,A R L,70,F,"EP37_pneumonia,Crep,A R L,70,F.wav",Crackles,Lung disease
+D,P40,heart failure,Crep,A R M,26,M,"DP40_heart failure,Crep,A R M,26,M.wav",Crackles,Heart disease
 B,P53,asthma,E W,P R M,72,F,"BP53_asthma,E W,P R M,72,F.wav",Wheezes,Lung disease
 E,P77,Asthma,E W,A R L,40,M,"EP77_Asthma,E W,A R L,40,M.wav",Wheezes,Lung disease
 E,P38,Asthma,E W,P R M,38,M,"EP38_Asthma,E W,P R M,38,M.wav",Wheezes,Lung disease
@@ -219,24 +216,24 @@ E,P89,N,N,P L M,70,M,"EP89_N,N,P L M,70,M.wav",Normal,Normal
 D,P111,COPD,E W,P R L,51,M,"DP111_COPD,E W,P R L ,51,M.wav",Wheezes,Lung disease
 E,P86,N,N,P R U,68,F,"EP86_N,N,P R U,68,F.wav",Normal,Normal
 E,P92,N,N,P L L,43,M,"EP92_N,N,P L L ,43,M.wav",Normal,Normal
-B,P24,heart failure,Crep,P R L,76,F,"BP24_heart failure,Crep,P R L ,76,F.wav",Crepitations,Heart disease
-B,P28,BRON,Crep,P L U,68,F,"BP28_BRON,Crep,P L U,68,F.wav",Crepitations,Lung disease
+B,P24,heart failure,Crep,P R L,76,F,"BP24_heart failure,Crep,P R L ,76,F.wav",Crackles,Heart disease
+B,P28,BRON,Crep,P L U,68,F,"BP28_BRON,Crep,P L U,68,F.wav",Crackles,Lung disease
 D,P14,Heart Failure,C,A R M,54,M,"DP14_Heart Failure,C,A R M,54,M.wav",Crackles,Heart disease
-D,P24,heart failure,Crep,P R L,76,F,"DP24_heart failure,Crep,P R L ,76,F.wav",Crepitations,Heart disease
-B,P40,heart failure,Crep,A R M,26,M,"BP40_heart failure,Crep,A R M,26,M.wav",Crepitations,Heart disease
+D,P24,heart failure,Crep,P R L,76,F,"DP24_heart failure,Crep,P R L ,76,F.wav",Crackles,Heart disease
+B,P40,heart failure,Crep,A R M,26,M,"BP40_heart failure,Crep,A R M,26,M.wav",Crackles,Heart disease
 D,P102,N,N,P L L,41,M,"DP102_N,N,P L L,41,M.wav",Normal,Normal
 B,P93,N,N,P R M,75,M,"BP93_N,N,P R M,75,M.wav",Normal,Normal
 B,P10,Asthma,E W,P R U,59,M,"BP10_Asthma,E W,P R U,59,M.wav",Wheezes,Lung disease
 B,P32,N,N,A R L,30,M,"BP32_N,N,A R L,30,M.wav",Normal,Normal
 E,P68,asthma,E W,P R L,21,F,"EP68_asthma,E W,P R L ,21,F.wav",Wheezes,Lung disease
 D,P65,asthma,E W,P R L,60,F,"DP65_asthma,E W,P R L ,60,F.wav",Wheezes,Lung disease
-E,P24,heart failure,Crep,P R L,76,F,"EP24_heart failure,Crep,P R L ,76,F.wav",Crepitations,Heart disease
+E,P24,heart failure,Crep,P R L,76,F,"EP24_heart failure,Crep,P R L ,76,F.wav",Crackles,Heart disease
 E,P96,N,N,P R L,66,F,"EP96_N,N,P R L ,66,F.wav",Normal,Normal
-E,P40,heart failure,Crep,A R M,26,M,"EP40_heart failure,Crep,A R M,26,M.wav",Crepitations,Heart disease
+E,P40,heart failure,Crep,A R M,26,M,"EP40_heart failure,Crep,A R M,26,M.wav",Crackles,Heart disease
 D,P73,N,N,P L L,32,M,"DP73_N,N,P L L,32,M.wav",Normal,Normal
 B,P48,N,N,P L U,31,M,"BP48_N,N,P L U,31,M.wav",Normal,Normal
 B,P103,N,N,P R U,81,F,"BP103_N,N,P R U,81,F.wav",Normal,Normal
-E,P41,pneumonia,Crep,P R M,51,M,"EP41_pneumonia,Crep,P R M,51,M.wav",Crepitations,Lung disease
+E,P41,pneumonia,Crep,P R M,51,M,"EP41_pneumonia,Crep,P R M,51,M.wav",Crackles,Lung disease
 D,P11,Heart Failure,C,P L L,53,M,"DP11_Heart Failure,C,P L L,53,M.wav",Crackles,Heart disease
 D,P82,N,N,P L U,38,M,"DP82_N,N,P L U,38,M.wav",Normal,Normal
 E,P64,asthma,E W,P L U,60,M,"EP64_asthma,E W,P L U,60,M.wav",Wheezes,Lung disease
@@ -246,58 +243,55 @@ E,P55,asthma,E W,P R U,72,F,"EP55_asthma,E W,P R U,72,F.wav",Wheezes,Lung diseas
 D,P56,asthma,E W,P R M,56,F,"DP56_asthma,E W,P R M,56,F.wav",Wheezes,Lung disease
 B,P111,COPD,E W,P R L,51,M,"BP111_COPD,E W,P R L ,51,M.wav",Wheezes,Lung disease
 E,P91,asthma,E W,P R U,43,F,"EP91_asthma,E W,P R U,43,F.wav",Wheezes,Lung disease
-B,P41,pneumonia,Crep,P R M,51,M,"BP41_pneumonia,Crep,P R M,51,M.wav",Crepitations,Lung disease
+B,P41,pneumonia,Crep,P R M,51,M,"BP41_pneumonia,Crep,P R M,51,M.wav",Crackles,Lung disease
 B,P82,N,N,P L U,38,M,"BP82_N,N,P L U,38,M.wav",Normal,Normal
 D,P48,N,N,P L U,31,M,"DP48_N,N,P L U,31,M.wav",Normal,Normal
 B,P73,N,N,P L L,32,M,"BP73_N,N,P L L,32,M.wav",Normal,Normal
-D,P66,heart failure,Crep,P R L,43,M,"DP66_heart failure,Crep,P R L ,43,M.wav",Crepitations,Heart disease
+D,P66,heart failure,Crep,P R L,43,M,"DP66_heart failure,Crep,P R L ,43,M.wav",Crackles,Heart disease
 D,P16,heart failure,C,P R U,56,M,"DP16_heart failure,C,P R U,56,M.wav",Crackles,Heart disease
-E,P66,heart failure,Crep,P R L,43,M,"EP66_heart failure,Crep,P R L ,43,M.wav",Crepitations,Heart disease
-D,P22,BRON,Crep,P R U,24,M,"DP22_BRON,Crep,P R U,24,M.wav",Crepitations,Lung disease
+E,P66,heart failure,Crep,P R L,43,M,"EP66_heart failure,Crep,P R L ,43,M.wav",Crackles,Heart disease
+D,P22,BRON,Crep,P R U,24,M,"DP22_BRON,Crep,P R U,24,M.wav",Crackles,Lung disease
 D,P19,heart failure,C,P R U,70,F,"DP19_heart failure,C,P R U,70,F.wav",Crackles,Heart disease
-D,P8,Plueral Effusion,I C B,P L L,70,M,"DP8_Plueral Effusion,I C B,P L L,70,M.wav",Crackles,Lung disease
 D,P93,N,N,P R M,75,M,"DP93_N,N,P R M,75,M.wav",Normal,Normal
 E,P70,N,N,P L U,52,F,"EP70_N,N,P L U,52,F.wav",Normal,Normal
 D,P96,N,N,P R L,66,F,"DP96_N,N,P R L ,66,F.wav",Normal,Normal
 B,P57,COPD,E W,P R L,42,M,"BP57_COPD,E W,P R L ,42,M.wav",Wheezes,Lung disease
-B,P6,Plueral Effusion,I C B,P L R,81,M,"BP6_Plueral Effusion,I C B,P L R,81,M.wav",Crackles,Lung disease
-B,P23,Lung Fibrosis,Crep,P R L,50,M,"BP23_Lung Fibrosis,Crep,P R L ,50,M.wav",Crepitations,Lung disease
+B,P23,Lung Fibrosis,Crep,P R L,50,M,"BP23_Lung Fibrosis,Crep,P R L ,50,M.wav",Crackles,Lung disease
 B,P65,asthma,E W,P R L,60,F,"BP65_asthma,E W,P R L ,60,F.wav",Wheezes,Lung disease
 D,P53,asthma,E W,P R M,72,F,"DP53_asthma,E W,P R M,72,F.wav",Wheezes,Lung disease
 B,P44,asthma,E W,P R U,40,M,"BP44_asthma,E W,P R U,40,M.wav",Wheezes,Lung disease
 D,P32,N,N,A R L,30,M,"DP32_N,N,A R L,30,M.wav",Normal,Normal
-D,P42,heart failure,Crep,P L L,56,M,"DP42_heart failure,Crep,P L L,56,M.wav",Crepitations,Heart disease
+D,P42,heart failure,Crep,P L L,56,M,"DP42_heart failure,Crep,P L L,56,M.wav",Crackles,Heart disease
 E,P102,N,N,P L L,41,M,"EP102_N,N,P L L,41,M.wav",Normal,Normal
 E,P76,N,N,A L U,31,M,"EP76_N,N,A L U,31,M.wav",Normal,Normal
 E,P110,COPD,E W,P L L,62,M,"EP110_COPD,E W,P L L,62,M.wav",Wheezes,Lung disease
 B,P25,copd,E W,P L L,76,M,"BP25_copd,E W,P L L,76,M.wav",Wheezes,Lung disease
 D,P92,N,N,P L L,43,M,"DP92_N,N,P L L ,43,M.wav",Normal,Normal
 B,P56,asthma,E W,P R M,56,F,"BP56_asthma,E W,P R M,56,F.wav",Wheezes,Lung disease
-E,P23,Lung Fibrosis,Crep,P R L,50,M,"EP23_Lung Fibrosis,Crep,P R L ,50,M.wav",Crepitations,Lung disease
+E,P23,Lung Fibrosis,Crep,P R L,50,M,"EP23_Lung Fibrosis,Crep,P R L ,50,M.wav",Crackles,Lung disease
 E,P88,N,N,A R U,29,M,"EP88_N,N,A R U,29,M.wav",Normal,Normal
 E,P95,N,N,P L M,18,M,"EP95_N,N,P L M,18,M.wav",Normal,Normal
 D,P103,N,N,P R U,81,F,"DP103_N,N,P R U,81,F.wav",Normal,Normal
-D,P23,Lung Fibrosis,Crep,P R L,50,M,"DP23_Lung Fibrosis,Crep,P R L ,50,M.wav",Crepitations,Lung disease
-E,P8,Plueral Effusion,I C B,P L L,70,M,"EP8_Plueral Effusion,I C B,P L L,70,M.wav",Crackles,Lung disease
+D,P23,Lung Fibrosis,Crep,P R L,50,M,"DP23_Lung Fibrosis,Crep,P R L ,50,M.wav",Crackles,Lung disease
 B,P98,N,N,P L L,53,M,"BP98_N,N,P L L,53,M.wav",Normal,Normal
 D,P10,Asthma,E W,P R U,59,M,"DP10_Asthma,E W,P R U,59,M.wav",Wheezes,Lung disease
 B,P62,COPD,E W,P L M,53,M,"BP62_COPD,E W,P L M,53,M.wav",Wheezes,Lung disease
 E,P61,COPD,E W,P R L,53,M,"EP61_COPD,E W,P R L ,53,M.wav",Wheezes,Lung disease
 E,P2,Asthma,E W,P L L R,52,F,"EP2_Asthma,E W,P L L R,52,F.wav",Wheezes,Lung disease
 E,P101,Asthma,E W,P L M,12,F,"EP101_Asthma,E W,P L M,12,F.wav",Wheezes,Lung disease
-B,P66,heart failure,Crep,P R L,43,M,"BP66_heart failure,Crep,P R L ,43,M.wav",Crepitations,Heart disease
+B,P66,heart failure,Crep,P R L,43,M,"BP66_heart failure,Crep,P R L ,43,M.wav",Crackles,Heart disease
 B,P102,N,N,P L L,41,M,"BP102_N,N,P L L,41,M.wav",Normal,Normal
 B,P80,asthma,E W,A L U,38,M,"BP80_asthma,E W,A L U,38,M.wav",Wheezes,Lung disease
-B,P42,heart failure,Crep,P L L,56,M,"BP42_heart failure,Crep,P L L,56,M.wav",Crepitations,Heart disease
+B,P42,heart failure,Crep,P L L,56,M,"BP42_heart failure,Crep,P L L,56,M.wav",Crackles,Heart disease
 D,P15,Asthma,E W,P R U,49,F,"DP15_Asthma,E W,P R U,49,F.wav",Wheezes,Lung disease
 D,P84,N,N,A R U,65,F,"DP84_N,N,A R U,65,F.wav",Normal,Normal
-E,P105,Lung Fibrosis,Crep,A U R,44,M,"EP105_Lung Fibrosis,Crep,A U R,44,M.wav",Crepitations,Lung disease
-E,P21,BRON,Crep,P R L,20,M,"EP21_BRON,Crep,P R L ,20,M.wav",Crepitations,Lung disease
-E,P42,heart failure,Crep,P L L,56,M,"EP42_heart failure,Crep,P L L,56,M.wav",Crepitations,Heart disease
-B,P37,pneumonia,Crep,A R L,70,F,"BP37_pneumonia,Crep,A R L,70,F.wav",Crepitations,Lung disease
+E,P105,Lung Fibrosis,Crep,A U R,44,M,"EP105_Lung Fibrosis,Crep,A U R,44,M.wav",Crackles,Lung disease
+E,P21,BRON,Crep,P R L,20,M,"EP21_BRON,Crep,P R L ,20,M.wav",Crackles,Lung disease
+E,P42,heart failure,Crep,P L L,56,M,"EP42_heart failure,Crep,P L L,56,M.wav",Crackles,Heart disease
+B,P37,pneumonia,Crep,A R L,70,F,"BP37_pneumonia,Crep,A R L,70,F.wav",Crackles,Lung disease
 E,P75,N,N,P L U,73,F,"EP75_N,N,P L U,73,F.wav",Normal,Normal
 B,P63,COPD,E W,P R L,58,F,"BP63_COPD,E W,P R L ,58,F.wav",Wheezes,Lung disease
-D,P105,Lung Fibrosis,Crep,A U R,44,M,"DP105_Lung Fibrosis,Crep,A U R,44,M.wav",Crepitations,Lung disease
+D,P105,Lung Fibrosis,Crep,A U R,44,M,"DP105_Lung Fibrosis,Crep,A U R,44,M.wav",Crackles,Lung disease
 E,P62,COPD,E W,P L M,53,M,"EP62_COPD,E W,P L M,53,M.wav",Wheezes,Lung disease
 D,P49,N,N,P R M,21,M,"DP49_N,N,P R M,21,M.wav",Normal,Normal
 D,P68,asthma,E W,P R L,21,F,"DP68_asthma,E W,P R L ,21,F.wav",Wheezes,Lung disease
@@ -321,7 +315,7 @@ B,P2,Asthma,E W,P L L R,52,F,"BP2_Asthma,E W,P L L R,52,F.wav",Wheezes,Lung dise
 D,P94,N,N,P L L,24,M,"DP94_N,N,P L L,24,M.wav",Normal,Normal
 B,P101,Asthma,E W,P L M,12,F,"BP101_Asthma,E W,P L M,12,F.wav",Wheezes,Lung disease
 E,P31,N,N,P L M,27,F,"EP31_N,N,P L M,27,F.wav",Normal,Normal
-B,P105,Lung Fibrosis,Crep,A U R,44,M,"BP105_Lung Fibrosis,Crep,A U R,44,M.wav",Crepitations,Lung disease
+B,P105,Lung Fibrosis,Crep,A U R,44,M,"BP105_Lung Fibrosis,Crep,A U R,44,M.wav",Crackles,Lung disease
 D,P79,asthma,E W,A R U,46,M,"DP79_asthma,E W,A R U,46,M.wav",Wheezes,Lung disease
 B,P13,Heart Failure,C,P L L,55,M,"BP13_Heart Failure,C,P L L,55,M.wav",Crackles,Heart disease
 D,P107,Asthma,E W,P L U,59,F,"DP107_Asthma,E W,P L U,59,F.wav",Wheezes,Lung disease
